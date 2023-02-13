@@ -7,5 +7,13 @@
 
 import Foundation
 
-print("Hello, World!")
+internal func main() {
+    let printer = SumPrinter()
+
+    printer.printValue(with: SimpleSumStrategy(), n: 10)
+
+    printer.printValue(with: GaussSumStrategy(), n: 10)
+}
+
+main()
 

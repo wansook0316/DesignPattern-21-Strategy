@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		CEBF89602999EC330025F9C2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBF895F2999EC330025F9C2 /* main.swift */; };
+		CEBF8973299A004C0025F9C2 /* SumPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBF8972299A004C0025F9C2 /* SumPrinter.swift */; };
+		CEBF8975299A00B60025F9C2 /* SumStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBF8974299A00B60025F9C2 /* SumStrategy.swift */; };
+		CEBF8977299A00E90025F9C2 /* SimpleSumStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBF8976299A00E90025F9C2 /* SimpleSumStrategy.swift */; };
+		CEBF8979299A01330025F9C2 /* GaussSumStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBF8978299A01330025F9C2 /* GaussSumStrategy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		CEBF895C2999EC330025F9C2 /* Strategy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Strategy; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBF895F2999EC330025F9C2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CEBF8972299A004C0025F9C2 /* SumPrinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumPrinter.swift; sourceTree = "<group>"; };
+		CEBF8974299A00B60025F9C2 /* SumStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumStrategy.swift; sourceTree = "<group>"; };
+		CEBF8976299A00E90025F9C2 /* SimpleSumStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSumStrategy.swift; sourceTree = "<group>"; };
+		CEBF8978299A01330025F9C2 /* GaussSumStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaussSumStrategy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				CEBF895F2999EC330025F9C2 /* main.swift */,
+				CEBF8972299A004C0025F9C2 /* SumPrinter.swift */,
+				CEBF8974299A00B60025F9C2 /* SumStrategy.swift */,
+				CEBF8976299A00E90025F9C2 /* SimpleSumStrategy.swift */,
+				CEBF8978299A01330025F9C2 /* GaussSumStrategy.swift */,
 			);
 			path = Strategy;
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEBF8977299A00E90025F9C2 /* SimpleSumStrategy.swift in Sources */,
+				CEBF8979299A01330025F9C2 /* GaussSumStrategy.swift in Sources */,
+				CEBF8973299A004C0025F9C2 /* SumPrinter.swift in Sources */,
 				CEBF89602999EC330025F9C2 /* main.swift in Sources */,
+				CEBF8975299A00B60025F9C2 /* SumStrategy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
